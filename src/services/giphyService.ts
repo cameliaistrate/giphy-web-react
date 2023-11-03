@@ -51,5 +51,4 @@ type Gif = {
 
 type User = unknown;
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-type Images = Record<string, any>;
+type Images = Record<string, Record<string, string>>;
